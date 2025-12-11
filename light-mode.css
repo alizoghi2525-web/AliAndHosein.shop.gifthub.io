@@ -1,0 +1,432 @@
+/* Light Mode Overrides */
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+body.light-mode header {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    border-bottom: 3px solid #4CAF50;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .logo-text h1 {
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body.light-mode .logo-text p {
+    color: #666666;
+}
+
+body.light-mode .theme-btn {
+    background: #ffffff;
+    border: 2px solid #4CAF50;
+    color: #333333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .theme-btn:hover {
+    background: #4CAF50;
+    color: #ffffff;
+}
+
+body.light-mode #search-input {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333333;
+    border: 2px solid #2196F3;
+}
+
+body.light-mode #search-input:focus {
+    background: rgba(33, 150, 243, 0.1);
+    box-shadow: 0 0 20px rgba(33, 150, 243, 0.2);
+}
+
+body.light-mode #search-btn {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+}
+
+body.light-mode .btn-login {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+}
+
+body.light-mode .btn-cart {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+}
+
+body.light-mode nav {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .nav-menu li a {
+    color: #333333;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .nav-menu li a:hover,
+body.light-mode .nav-menu li a.active {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    color: #ffffff;
+}
+
+body.light-mode .hero {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.1), rgba(33, 150, 243, 0.1));
+}
+
+body.light-mode .hero-content h2 {
+    background: linear-gradient(45deg, #2196F3, #4CAF50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body.light-mode .hero-content p {
+    color: #666666;
+}
+
+body.light-mode .stat {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #e0e0e0;
+}
+
+body.light-mode .stat i {
+    color: #4CAF50;
+}
+
+body.light-mode .stat h3 {
+    color: #333333;
+}
+
+body.light-mode .stat p {
+    color: #666666;
+}
+
+body.light-mode .section-title {
+    color: #2196F3;
+}
+
+body.light-mode .section-title::after {
+    background: linear-gradient(90deg, #4CAF50, transparent);
+}
+
+body.light-mode .section-subtitle {
+    color: #666666;
+}
+
+body.light-mode .filter-btn {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333333;
+    border: 2px solid #e0e0e0;
+}
+
+body.light-mode .filter-btn:hover,
+body.light-mode .filter-btn.active {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    color: #ffffff;
+    border-color: transparent;
+}
+
+body.light-mode .product-card {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .product-card:hover {
+    border-color: #2196F3;
+    box-shadow: 0 15px 30px rgba(33, 150, 243, 0.15);
+}
+
+body.light-mode .product-badge {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+}
+
+body.light-mode .product-title {
+    color: #333333;
+}
+
+body.light-mode .product-category {
+    background: rgba(33, 150, 243, 0.1);
+    color: #2196F3;
+}
+
+body.light-mode .product-description {
+    color: #666666;
+}
+
+body.light-mode .original-price {
+    color: #999999;
+}
+
+body.light-mode .final-price {
+    color: #4CAF50;
+}
+
+body.light-mode .rating i.far {
+    color: #dddddd;
+}
+
+body.light-mode .btn-details {
+    background: rgba(33, 150, 243, 0.1);
+    color: #2196F3;
+    border: 2px solid rgba(33, 150, 243, 0.2);
+}
+
+body.light-mode .btn-comments {
+    background: rgba(156, 39, 176, 0.1);
+    color: #7B1FA2;
+    border: 2px solid rgba(156, 39, 176, 0.2);
+}
+
+body.light-mode .categories {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+body.light-mode .category-card {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+}
+
+body.light-mode .category-card:hover {
+    background: linear-gradient(135deg, #ffffff, rgba(33, 150, 243, 0.1));
+}
+
+body.light-mode .category-card h3 {
+    color: #333333;
+}
+
+body.light-mode .category-card p {
+    color: #666666;
+}
+
+body.light-mode .about {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.05), rgba(33, 150, 243, 0.05));
+}
+
+body.light-mode .about-content h2 {
+    color: #2196F3;
+}
+
+body.light-mode .about-content p {
+    color: #666666;
+}
+
+body.light-mode .feature {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #e0e0e0;
+}
+
+body.light-mode .feature h4 {
+    color: #333333;
+}
+
+body.light-mode .feature p {
+    color: #666666;
+}
+
+body.light-mode .modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+body.light-mode .modal-content {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 2px solid #4CAF50;
+    color: #333333;
+}
+
+body.light-mode .close {
+    color: #333333;
+}
+
+body.light-mode .close:hover {
+    background: rgba(76, 175, 80, 0.1);
+}
+
+body.light-mode .form-group label {
+    color: #2196F3;
+}
+
+body.light-mode .form-group input {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333333;
+    border: 2px solid #dddddd;
+}
+
+body.light-mode .form-group input:focus {
+    border-color: #2196F3;
+    background: rgba(33, 150, 243, 0.1);
+}
+
+body.light-mode .btn-submit {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+}
+
+body.light-mode .form-footer {
+    color: #666666;
+}
+
+body.light-mode .admin-credentials {
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+body.light-mode .admin-credentials h4 {
+    color: #2196F3;
+}
+
+body.light-mode .admin-credentials p {
+    color: #333333;
+}
+
+body.light-mode .admin-credentials .note {
+    color: #666666;
+}
+
+body.light-mode .cart-item {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+}
+
+body.light-mode .cart-item-title {
+    color: #333333;
+}
+
+body.light-mode .quantity-input {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333333;
+    border: 2px solid #dddddd;
+}
+
+body.light-mode .btn-remove-item {
+    background: rgba(244, 67, 54, 0.1);
+    color: #d32f2f;
+    border: 2px solid rgba(244, 67, 54, 0.2);
+}
+
+body.light-mode .btn-clear {
+    background: rgba(244, 67, 54, 0.1);
+    color: #d32f2f;
+    border: 2px solid rgba(244, 67, 54, 0.2);
+}
+
+body.light-mode .empty-cart {
+    color: #666666;
+}
+
+body.light-mode .empty-cart h3 {
+    color: #4CAF50;
+}
+
+body.light-mode .cart-items::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .cart-items::-webkit-scrollbar-thumb {
+    background: #2196F3;
+}
+
+body.light-mode .social-link {
+    background: rgba(0, 0, 0, 0.05);
+    color: #333333;
+}
+
+body.light-mode .social-link:hover {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    color: #ffffff;
+}
+
+body.light-mode .footer-links a {
+    color: #666666;
+}
+
+body.light-mode .footer-links a:hover {
+    color: #2196F3;
+}
+
+body.light-mode .contact-info p {
+    color: #666666;
+}
+
+body.light-mode .footer-bottom {
+    color: #666666;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Notification styles for light mode */
+body.light-mode .notification.success {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.95), rgba(76, 175, 80, 0.85));
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+body.light-mode .notification.error {
+    background: linear-gradient(135deg, rgba(244, 67, 54, 0.95), rgba(244, 67, 54, 0.85));
+    border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+body.light-mode .notification.info {
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.95), rgba(33, 150, 243, 0.85));
+    border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+/* Product details modal for light mode */
+body.light-mode .product-detail-modal {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+}
+
+body.light-mode .product-detail-modal h2 {
+    color: #333333;
+}
+
+body.light-mode .product-detail-modal .product-price {
+    color: #4CAF50;
+}
+
+body.light-mode .product-detail-modal .product-description {
+    color: #666666;
+}
+
+/* Form validation styles */
+body.light-mode .form-error {
+    color: #d32f2f;
+    background: rgba(244, 67, 54, 0.1);
+    border: 1px solid rgba(244, 67, 54, 0.2);
+}
+
+body.light-mode .form-success {
+    color: #2e7d32;
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+/* Button states */
+body.light-mode button:disabled {
+    background: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
+body.light-mode button:disabled:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Focus states for accessibility */
+body.light-mode *:focus {
+    outline: 2px solid #2196F3;
+    outline-offset: 2px;
+}
+
+/* Loading states */
+body.light-mode .loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
